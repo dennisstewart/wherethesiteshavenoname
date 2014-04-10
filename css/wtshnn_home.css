@@ -23,6 +23,16 @@ body {
 			width: 900px;
 			}
 	}
+	
+	@media screen and (max-width: 1000px){
+		footer{
+			margin-right: 100px;
+			}
+		}
+	
+	@media screen and (min-height: 800px){
+		#mainnav li:hidden {display:none}
+		}
 
 header {
 	border-bottom: 1px #dddddd solid;
